@@ -1,3 +1,3 @@
-class Category < ActiveRecord::Base
+class Priority < ActiveRecord::Base
   belongs_to :task
 end

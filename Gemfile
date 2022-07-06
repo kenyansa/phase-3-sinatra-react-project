@@ -29,12 +29,7 @@ gem "sinatra-activerecord", "~> 2.0"
 gem "rake", "~> 13.0"
 
 # Provides functionality to interact with a SQLite3 database
-# gem "sqlite3", "~> 1.4"
-#replace it with postgres gem
-gem 'pg'
-
-#puma gem
-gem 'puma'
+gem "sqlite3", "~> 1.4"
 
 #provides random data
 gem "faker"
